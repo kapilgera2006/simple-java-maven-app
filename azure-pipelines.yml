@@ -29,4 +29,5 @@ steps:
     replaceExistingArchive: true
 - task: WhiteSource@21
   inputs:
-   projectName: Project_Scrum
+    cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: 'New_Project_Name'
